@@ -1,0 +1,309 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/widget27"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#ffffffff" >
+
+    <ScrollView
+        android:id="@+id/viewflipper_scrollview"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:focusable="false"
+        android:scrollbars="none" >
+
+        <LinearLayout
+            android:id="@+id/widget28"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:paddingBottom="50dip"
+            android:orientation="vertical" >
+
+            <LinearLayout
+                android:id="@+id/widget28"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:background="#ffcc6600"
+                android:orientation="vertical" >
+
+                <TextView
+                    android:id="@+id/widget29"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="请输入输入法名称"
+                    android:textColor="#ff000000"
+                    android:textSize="20sp"
+                    android:textStyle="bold" >
+                </TextView>
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/widget30"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10.0dip" >
+
+                <TextView
+                    android:id="@+id/from_addrasflsdf"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="输入法名称:"
+                    android:textColor="#ff000000"
+                    android:textSize="18sp" >
+                </TextView>
+
+                <EditText
+                    android:id="@+id/et_contact"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="18sp" >
+                </EditText>
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/widget28"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:background="#ffcc6600"
+                android:orientation="vertical" >
+
+                <TextView
+                    android:id="@+id/widget29"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="请输入切换键盘脚本名称"
+                    android:textColor="#ff000000"
+                    android:textSize="20sp"
+                    android:textStyle="bold" >
+                </TextView>
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/widget30"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10.0dip" >
+
+                <TextView
+                    android:id="@+id/from_addrasflsdf"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="脚 本 名 称:"
+                    android:textColor="#ff000000"
+                    android:textSize="18sp" >
+                </TextView>
+
+                <AutoCompleteTextView
+                    android:id="@+id/et_message"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="18sp" >
+                </AutoCompleteTextView>
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/widget28"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:background="#ffcc6600"
+                android:orientation="vertical" >
+
+                <TextView
+                    android:id="@+id/widget29"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="请输入安装包名称"
+                    android:textColor="#ff000000"
+                    android:textSize="20sp"
+                    android:textStyle="bold" >
+                </TextView>
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/widget30"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10.0dip" >
+
+                <TextView
+                    android:id="@+id/from_addrasflsdf"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="安装包名称:"
+                    android:textColor="#ff000000"
+                    android:textSize="18sp" >
+                </TextView>
+
+                <AutoCompleteTextView
+                    android:id="@+id/et_installer"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="18sp" >
+                </AutoCompleteTextView>
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/widget28"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:background="#ffcc6600"
+                android:orientation="vertical" >
+
+                <TextView
+                    android:id="@+id/widget29"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="请输入包名"
+                    android:textColor="#ff000000"
+                    android:textSize="20sp"
+                    android:textStyle="bold" >
+                </TextView>
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/widget30"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10.0dip" >
+
+                <TextView
+                    android:id="@+id/from_addrasflsdf"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="输入法包名:"
+                    android:textColor="#ff000000"
+                    android:textSize="18sp" >
+                </TextView>
+
+                <AutoCompleteTextView
+                    android:id="@+id/et_package"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="18sp" >
+                </AutoCompleteTextView>
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/widget28"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:background="#ffcc6600"
+                android:orientation="vertical" >
+
+                <TextView
+                    android:id="@+id/widget29"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="请输入输入法切出脚本"
+                    android:textColor="#ff000000"
+                    android:textSize="20sp"
+                    android:textStyle="bold" >
+                </TextView>
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/widget30"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10.0dip" >
+
+                <TextView
+                    android:id="@+id/from_addrasflsdf"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="切 出 脚 本:"
+                    android:textColor="#ff000000"
+                    android:textSize="18sp" >
+                </TextView>
+
+                <AutoCompleteTextView
+                    android:id="@+id/et_changeInputMethod"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="18sp" >
+                </AutoCompleteTextView>
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/widget28"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:background="#ffcc6600"
+                android:orientation="vertical" >
+
+                <TextView
+                    android:id="@+id/widget29"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="请输入输入法设置脚本"
+                    android:textColor="#ff000000"
+                    android:textSize="20sp"
+                    android:textStyle="bold" >
+                </TextView>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10.0dip" >
+
+                <TextView
+                    android:id="@+id/from_addrasflsdf"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="设 置 脚 本:"
+                    android:textColor="#ff000000"
+                    android:textSize="18sp" >
+                </TextView>
+
+                <AutoCompleteTextView
+                    android:id="@+id/et_setting"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="18sp" >
+                </AutoCompleteTextView>
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+
+    <LinearLayout
+        android:id="@+id/widget275"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent" >
+
+        <LinearLayout
+            android:id="@+id/widget275"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom"
+            android:background="@drawable/i_title_gradient"
+            android:orientation="vertical" >
+
+            <LinearLayout
+                android:id="@+id/widget251"
+                android:layout_width="wrap_content"
+                android:layout_height="50dip"
+                android:layout_gravity="center_horizontal" >
+
+                <Button
+                    android:id="@+id/btn_save"
+                    style="@style/iBtn"
+                    android:layout_width="wrap_content"
+                    android:layout_height="50dip"
+                    android:text="保存" >
+                </Button>
+
+                <Button
+                    android:id="@+id/btn_cancle"
+                    style="@style/iBtn"
+                    android:layout_width="fill_parent"
+                    android:layout_height="50dip"
+                    android:text="取消" >
+                </Button>
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+
+</RelativeLayout>

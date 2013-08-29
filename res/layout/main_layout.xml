@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="fill_parent" android:layout_height="fill_parent"
+	android:background="#FFF4F4F4" android:orientation="vertical">
+
+	<ListView android:id="@+id/insertList" android:background="#FFF4F4F4"
+		android:layout_width="fill_parent" android:layout_height="wrap_content"
+		android:cacheColorHint="#FFF4F4F4" android:layout_marginLeft="10.0dip"
+		android:layout_marginTop="5.0dip" android:layout_marginRight="10.0dip"
+		android:layout_marginBottom="0.0dip" android:dividerHeight="0.0dip">
+	</ListView>
+	
+	<ListView android:id="@+id/inputList" android:background="#FFF4F4F4"
+		android:layout_width="fill_parent" android:layout_height="wrap_content"
+		android:cacheColorHint="#FFF4F4F4" android:layout_marginLeft="10.0dip"
+		android:layout_marginTop="1.0dip" android:layout_marginRight="10.0dip"
+		android:layout_marginBottom="5.0dip" android:dividerHeight="0.0dip">
+	</ListView>
+
+
+</LinearLayout>

@@ -1,0 +1,70 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="sogou.test.kpi"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="7"
+        android:targetSdkVersion="15" />
+        
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+	<uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED"/> 
+	<uses-permission android:name="android.permission.WAKE_LOCK" />
+    <uses-permission android:name="android.permission.DISABLE_KEYGUARD" />
+    <uses-permission android:name="android.permission.DELETE_PACKAGES" /> 
+    <uses-permission android:name="android.permission.REBOOT" /> 
+    <uses-permission android:name="android.permission.DEVICE_POWER"/>
+    <uses-permission android:name="android.permission.INJECT_EVENTS"></uses-permission>
+    <uses-permission android:name="android.permission.SET_ACTIVITY_WATCHER"></uses-permission>
+
+    <application
+        android:name=".KPITestApplication"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/iTitleTheme" 
+        >
+        <provider 
+            android:name="sogou.test.kpi.database.MyDataProvider" 
+            android:authorities="sogou.test.kpi" 
+            android:exported="false"
+        /> 
+        <activity
+            android:name=".MainActivity"
+            android:screenOrientation="portrait"
+            android:label="@string/title_activity_main" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".SettingActivity"
+            android:screenOrientation="portrait"
+        >
+        </activity>
+        
+        <activity
+            android:name=".TestActivity"
+            android:screenOrientation="portrait"
+        >
+        </activity>
+        
+        <activity
+            android:name=".SaveActivity"
+            android:screenOrientation="portrait"
+        >
+        </activity>
+        
+        <receiver android:name="sogou.test.agent.framework.receive.BootActionReceiver" >
+            <intent-filter android:priority="2147483647" >
+                <action android:name="android.intent.action.BOOT_COMPLETED" />
+                <action android:name="android.intent.action.SCREEN_ON" />
+                <action android:name="android.intent.action.SCREEN_OFF" />
+            </intent-filter>
+        </receiver>
+        
+    </application>
+
+</manifest>

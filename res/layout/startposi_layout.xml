@@ -1,0 +1,211 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/widget27"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#ffffffff"
+    android:orientation="vertical" >
+<ScrollView
+        android:id="@+id/viewflipper_scrollview"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:focusable="false"
+         android:paddingBottom="60dip"
+        android:scrollbars="none" >
+    <LinearLayout
+        android:id="@+id/widget28"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"      
+        android:orientation="vertical" >
+
+        <LinearLayout
+            android:id="@+id/widget28"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="0.0dip"
+            android:layout_marginLeft="10.0dip"
+            android:layout_marginRight="10.0dip"
+            android:layout_marginTop="20.0dip"
+            android:background="@drawable/circle_list_new_top_normal" >
+
+            <TextView
+                android:id="@+id/tv_name"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:layout_marginBottom="0.0dip"
+                android:layout_marginLeft="20.0dip"
+                android:layout_marginRight="0.0dip"
+                android:layout_marginTop="0.0dip"
+                android:cacheColorHint="#FFF4F4F4"
+                android:dividerHeight="0.0dip"
+                android:textColor="#000000"
+                android:textSize="20sp" >
+            </TextView>
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/widget28"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="0.0dip"
+            android:layout_marginLeft="10.0dip"
+            android:layout_marginRight="10.0dip"
+            android:layout_marginTop="20.0dip"
+            android:background="@drawable/circle_list_new_top_normal" >
+
+            <TextView
+                android:id="@+id/tv_script"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:layout_marginBottom="0.0dip"
+                android:layout_marginLeft="20.0dip"
+                android:layout_marginRight="0.0dip"
+                android:layout_marginTop="0.0dip"
+                android:cacheColorHint="#FFF4F4F4"
+                android:dividerHeight="0.0dip"
+                android:textColor="#000000"
+                android:textSize="20sp" >
+            </TextView>
+        </LinearLayout>
+        
+        <LinearLayout
+            android:id="@+id/widget28"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="0.0dip"
+            android:layout_marginLeft="10.0dip"
+            android:layout_marginRight="10.0dip"
+            android:layout_marginTop="20.0dip"
+            android:background="@drawable/circle_list_new_top_normal" >
+
+            <TextView
+                android:id="@+id/tv_installer"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:layout_marginBottom="0.0dip"
+                android:layout_marginLeft="20.0dip"
+                android:layout_marginRight="0.0dip"
+                android:layout_marginTop="0.0dip"
+                android:cacheColorHint="#FFF4F4F4"
+                android:dividerHeight="0.0dip"
+                android:textColor="#000000"
+               	android:lines="2"
+                android:textSize="20sp" >
+            </TextView>
+        </LinearLayout>
+        
+        <LinearLayout
+            android:id="@+id/widget28"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="0.0dip"
+            android:layout_marginLeft="10.0dip"
+            android:layout_marginRight="10.0dip"
+            android:layout_marginTop="20.0dip"
+            android:background="@drawable/circle_list_new_top_normal" >
+
+            <TextView
+                android:id="@+id/tv_package"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:layout_marginBottom="0.0dip"
+                android:layout_marginLeft="20.0dip"
+                android:layout_marginRight="0.0dip"
+                android:layout_marginTop="0.0dip"
+                android:cacheColorHint="#FFF4F4F4"
+                android:dividerHeight="0.0dip"
+                android:textColor="#000000"
+                android:lines="2"
+                android:textSize="20sp" >
+            </TextView>
+        </LinearLayout>
+        
+        <LinearLayout
+            android:id="@+id/widget28"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="0.0dip"
+            android:layout_marginLeft="10.0dip"
+            android:layout_marginRight="10.0dip"
+            android:layout_marginTop="20.0dip"
+            android:background="@drawable/circle_list_new_top_normal" >
+
+            <TextView
+                android:id="@+id/tv_change_inputmethod"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:layout_marginBottom="0.0dip"
+                android:layout_marginLeft="20.0dip"
+                android:layout_marginRight="0.0dip"
+                android:layout_marginTop="0.0dip"
+                android:cacheColorHint="#FFF4F4F4"
+                android:dividerHeight="0.0dip"
+                android:textColor="#000000"
+                android:lines="2"
+                android:textSize="20sp" >
+            </TextView>
+        </LinearLayout>
+        
+        <LinearLayout
+            android:id="@+id/widget28"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="0.0dip"
+            android:layout_marginLeft="10.0dip"
+            android:layout_marginRight="10.0dip"
+            android:layout_marginTop="20.0dip"
+            android:background="@drawable/circle_list_new_top_normal" >
+
+            <TextView
+                android:id="@+id/tv_setting"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:layout_marginBottom="0.0dip"
+                android:layout_marginLeft="20.0dip"
+                android:layout_marginRight="0.0dip"
+                android:layout_marginTop="0.0dip"
+                android:cacheColorHint="#FFF4F4F4"
+                android:dividerHeight="0.0dip"
+                android:textColor="#000000"
+                android:lines="2"
+                android:textSize="20sp" >
+            </TextView>
+        </LinearLayout>
+    </LinearLayout>
+    </ScrollView>
+
+    <LinearLayout
+        android:id="@+id/widget275"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent" >
+
+        <LinearLayout
+            android:id="@+id/widget275"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom"
+            android:background="@drawable/i_title_gradient"
+            android:orientation="vertical" >
+
+            <LinearLayout
+                android:id="@+id/widget251"
+                android:layout_width="wrap_content"
+                android:layout_height="60dip"
+                android:layout_gravity="center_horizontal" >
+
+                <GridView
+                    android:id="@+id/grid_setting"
+                    android:layout_width="fill_parent"
+                    android:layout_height="60dip" >
+                </GridView>
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+
+</RelativeLayout>

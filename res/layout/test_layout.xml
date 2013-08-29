@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#FFF4F4F4"
+>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/i_title_gradient"
+>
+	
+	<EditText 
+	    android:id="@+id/et_test_message" 
+	    android:layout_width="fill_parent"
+		android:layout_height="wrap_content" 
+		android:textSize="18sp"
+		>
+	</EditText>
+</LinearLayout>
+<TextView android:id="@+id/result_area_id"
+		android:layout_width="fill_parent" 
+		android:layout_height="wrap_content"
+		android:textSize="16dip" 
+		android:text="Result:" 
+		/>
+</LinearLayout>
