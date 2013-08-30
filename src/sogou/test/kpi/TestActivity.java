@@ -203,7 +203,7 @@ public class TestActivity extends Activity implements OnClickListener,Constants{
 	    			String uss = deviceInfo.getUss();
 	                String rss = deviceInfo.getRss();        
 	                String pss=deviceInfo.getPss();
-					float cpuUsage = deviceInfo.getCpuUsage();
+					String cpuUsage = deviceInfo.getCpuUsage();
 					String stateLog = "Scale:" + TestActivity.batteryScale  + " >> "  
 	                	+ "Temprature:" + TestActivity.batteryTemprature + " >> "
 	                	+ "Rss:" + rss + " >> "

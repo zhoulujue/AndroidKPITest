@@ -25,12 +25,12 @@ public class DeviceInfo {
 	}
 	
 	public String getUss(){
-		 MemoryInfo  mi = getAppMemoInfo();
+		 MemoryInfo mi = getAppMemoInfo();
 		 return mi.getTotalPrivateDirty() + "KB";		
 	}
 	
 	public String getRss(){
-		 MemoryInfo  mi = getAppMemoInfo();
+		 MemoryInfo mi = getAppMemoInfo();
 		 return mi.getTotalSharedDirty() + "KB";	
 	}
 	
@@ -88,7 +88,7 @@ public class DeviceInfo {
 		return pidMemoryInfo;			
 	}
 	
-	public float getCpuUsage() {
+/*	public float getCpuUsage() {
 		ProcessBuilder cmd;
 		String result = "";
 		String content = "";
@@ -114,5 +114,34 @@ public class DeviceInfo {
         float system = Float.valueOf(temp[2]);
         float idle = Float.valueOf(temp[3]);
 		return 100*(user + nice + system)/(user + nice + system + idle);
+	}*/
+	
+	public String getCpuUsage() {
+		String usage = "";
+		String content = "";
+		try {
+			Process p = Runtime.getRuntime().exec("/system/bin/top -n 1\n");
+			InputStream in = p.getInputStream();
+			byte[] re = new byte[1024];
+			while (in.read(re) != -1) {
+				content = content + new String(re);
+			}
+			in.close();
+		} catch (IOException ex) {
+			ex.printStackTrace();
+		}
+		//  PID	CPU% S  #THR     VSS     RSS PCY UID      Name
+		String[] resultList = content.split("\n");//[0].trim().split("cpu")[1].trim();
+		for (String line : resultList) {
+			if (line.contains("com.sohu.inputmethod.sogou")) {
+				String[] splitList = line.split("%");
+				String temp = splitList[0];
+				int start = temp.lastIndexOf(' ') + 1;
+				usage = temp.substring(start);
+				return usage;
+			}
+		}
+		return "Unkown";
 	}
+	
 }
